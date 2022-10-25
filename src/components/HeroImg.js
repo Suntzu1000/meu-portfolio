@@ -12,7 +12,7 @@ const HeroImg = () => {
            < img className='intro-img' src={IntroImg} alt='IntroImg'/>
         </div>
         <div className='content'>
-            <h1>Olá, Eu sou Gabriel.</h1>
+            <h1>Olá, eu sou Gabriel.</h1>
             <p>Desenvolvedor em react, entre outras linguagens.</p>
             <div>
                 <Link to='/project' className='btn'>Projetos</Link>
