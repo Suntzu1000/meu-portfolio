@@ -1,0 +1,27 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0, 0,0, 0.5);
+    height: 60vh;
+    position: relative;
+}
+.hero-img::before{
+    content: '';
+    background: url('https://img.freepik.com/free-photo/programming-code-with-laptop-background_1134-61.jpg?w=740&t=st=1666899943~exp=1666900543~hmac=f2b48271247c4a90236c62ed585925f77535ca1621536b8c54fc7e3cd64b4fb6');
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.cabeçalho{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
