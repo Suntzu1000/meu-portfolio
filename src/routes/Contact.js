@@ -2,11 +2,16 @@ import React from 'react'
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import HeroImg02 from '../components/HeroImg02'
+import Form from '../components/Form'
+
 
 const Contact = () => {
   return (
     <div>
       <Navbar/>
+      <HeroImg02 heading='CONTATO' text='Vamos bater um papo.'/>
+      <Form/>
       <Footer/>
     </div>
   )

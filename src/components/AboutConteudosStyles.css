@@ -1,0 +1,46 @@
+.sobre{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.sobre .esquerda{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+.sobre .esquerda p{
+    margin: 1.2rem 0;
+    line-height: 2rem;
+}
+.sobre .direita{
+    max-width: 700px;
+}
+
+
+.direita .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.direita .img{
+    max-width: 90%;
+    border: 1px solid #333;
+}
+.direita .top{
+    grid-column: 1/ span 7;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+.direita .bottom{
+    grid-column: 4/ -1;
+    grid-row: 1;
+    z-index: 6;
+}

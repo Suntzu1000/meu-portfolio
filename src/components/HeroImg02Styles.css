@@ -6,7 +6,7 @@
 }
 .hero-img::before{
     content: '';
-    background: url('https://img.freepik.com/free-photo/programming-code-with-laptop-background_1134-61.jpg?w=740&t=st=1666899943~exp=1666900543~hmac=f2b48271247c4a90236c62ed585925f77535ca1621536b8c54fc7e3cd64b4fb6');
+    background: url('https://img.freepik.com/free-photo/businessman-pointing-his-presentation-futuristic-digital-screen_53876-102617.jpg?w=740&t=st=1667044550~exp=1667045150~hmac=a5b5fc98eb8df263c5805540e53d258f40ac28e982e84ca0410f613fb9dadcec');
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -24,4 +24,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
+
+}
+
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px){
+    .hero-img h1{
+        font-size: 2rem;
+    
+    }
 }
