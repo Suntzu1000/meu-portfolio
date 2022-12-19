@@ -1,16 +1,20 @@
 import React from 'react'
 import './WorkCardStyles.css'
-import { NavLink} from 'react-router-dom'
+import {  NavLink} from 'react-router-dom'
 
-const WorkCard = (props) => {
+const WorkCard = (props, ver) => {
 
-  function opeTab(){
+  /*function opePaises(){
     window.open('https://api-paises-000.vercel.app/')
   }
+  function opeEcommerce(){
+    window.open('https://e-commerce-teste-i96mcszwf-suntzu1000.vercel.app/')
+  }*/
 
   function opeTabGit(){
     window.open('https://github.com/Suntzu1000')
   }
+  
 
   return (
     <>
@@ -20,7 +24,7 @@ const WorkCard = (props) => {
               <div className='pro-details'>
                 <p>{props.text}</p>
                 <div className='pro-btns'>
-                  <NavLink onClick={opeTab} className='btn' >Ver</NavLink>
+                  <a href={props.view} target="_blank" rel="noopener noreferrer" className='btn'>Ver</a>
                   <NavLink onClick={opeTabGit} className='btn' >Git</NavLink>
                 </div>
               </div>

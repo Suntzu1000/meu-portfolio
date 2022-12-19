@@ -11,7 +11,7 @@ const AboutConteudos = () => {
     <div className='sobre'>
         <div className='esquerda'>
             <h1>Quem sou eu?</h1>
-            <p>Me chamo Gabriel tenho 18 anos, sou desenvolvedor de sistemas e estou focado nas tecnologias voltadas ao Front-End. Sou um apaixonado por tecnologias e movido á desafios. <br/>Hoje já entendo tecnologias como NodeJS, Bootstrap, ReactJS etc.</p>
+            <p>Me chamo Gabriel tenho 18 anos, sou desenvolvedor de sistemas e estou focado nas tecnologias voltadas ao Front-End. Sou um apaixonado por tecnologias e movido á desafios. <br/>Hoje já entendo tecnologias como NodeJS, Bootstrap, ReactJS, React-Redux-Toolkit etc...</p>
             <Link to='/contact'>
                 <button className='btn'>Contatos</button>
             </Link>
