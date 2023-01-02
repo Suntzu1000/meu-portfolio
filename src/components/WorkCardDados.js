@@ -3,7 +3,7 @@ import pro1 from '../assets/api-paises.png'
 import pro2 from '../assets/ecommerce.png'
 import pro3 from '../assets/bankteste.png'
 import pro4 from '../assets/crud.png'
-import pro5 from '../assets/pro5.png'
+import pro5 from '../assets/pro.png'
 
 
 const ProjectCardDados = [
