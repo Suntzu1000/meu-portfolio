@@ -28,7 +28,7 @@ const ProjectCardDados = [
     {
         imgsrc: pro4,
         title: "Crud",
-        text: "Modelo de Crud moderno, desenvolvendo back-end",
+        text: `Modelo de Crud moderno, desenvolvendo back-end`,
         view:"https://crud2-0-76qe.vercel.app/"
     },
     {
