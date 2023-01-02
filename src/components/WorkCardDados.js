@@ -37,25 +37,7 @@ const ProjectCardDados = [
         text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB...",
         view:"https://restaurante-teste.vercel.app/"
     },
-    {
-        imgsrc: pro5,
-        title: "Restaurante",
-        text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB...",
-        view:"https://restaurante-teste.vercel.app/"
-    },
-    {
-        imgsrc: pro5,
-        title: "Restaurante",
-        text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB...",
-        view:"https://restaurante-teste.vercel.app/"
-    },
-    {
-        imgsrc: pro5,
-        title: "Restaurante",
-        text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB...",
-        view:"https://restaurante-teste.vercel.app/"
-    },
-
+    
 ]
 
 export default ProjectCardDados
