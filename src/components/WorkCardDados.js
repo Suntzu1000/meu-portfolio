@@ -3,7 +3,7 @@ import pro1 from '../assets/api-paises.png'
 import pro2 from '../assets/ecommerce.png'
 import pro3 from '../assets/bankteste.png'
 import pro4 from '../assets/crud.png'
-import fotorestaurante from '../assets/restaurante.png'
+import pro5 from '../assets/restaurante.png'
 
 
 const ProjectCardDados = [
@@ -32,7 +32,7 @@ const ProjectCardDados = [
         view:"https://crud2-0-76qe.vercel.app/"
     },
     {
-        imgsrc: fotorestaurante,
+        imgsrc: pro5,
         title: "Restaurante",
         text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB...",
         view:"https://restaurante-teste.vercel.app/"
