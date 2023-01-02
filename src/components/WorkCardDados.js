@@ -28,13 +28,13 @@ const ProjectCardDados = [
     {
         imgsrc: pro4,
         title: "Crud",
-        text: `Modelo de Crud moderno, desenvolvendo back-end`,
+        text: `Modelo de Crud moderno, desenvolvendo back-end...`,
         view:"https://crud2-0-76qe.vercel.app/"
     },
     {
         imgsrc: pro5,
         title: "Restaurante",
-        text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB",
+        text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB...",
         view:"https://restaurante-teste.vercel.app/"
     },
 
