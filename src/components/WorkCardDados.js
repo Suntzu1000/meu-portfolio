@@ -42,7 +42,7 @@ const ProjectCardDados = [
         imgsrc: pro6,
         title: "Admin",
         text: "Projeto Mern Stack. Painel para administração de vendas e lucros separados entre dias, meses e ano.",
-        view:"https://dashboard.render.com/static/srv-cfaiffpgp3jsh6fbakcg"
+        view:"https://admin-front-end.onrender.com/"
     },
     
 ]
