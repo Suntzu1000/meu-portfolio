@@ -4,6 +4,7 @@ import pro2 from '../assets/ecommerce.png'
 import pro3 from '../assets/bankteste.png'
 import pro4 from '../assets/crud.png'
 import pro5 from '../assets/restaurante.png'
+import pro6 from '../assets/admin.png'
 
 
 const ProjectCardDados = [
@@ -36,7 +37,13 @@ const ProjectCardDados = [
         title: "Restaurante",
         text: "Projeto Mern Stack em desenvolvimento. Concluindo aprendizagem em banco de dados para poder fazer a conexão em MongoDB...",
         view:"https://restaurante-teste.vercel.app/"
-    }
+    },
+    {
+        imgsrc: pro6,
+        title: "Admin",
+        text: "Projeto Mern Stack. Painel para administração de vendas e lucros separados entre dias, meses e ano.",
+        view:"https://dashboard.render.com/static/srv-cfaiffpgp3jsh6fbakcg"
+    },
     
 ]
 
